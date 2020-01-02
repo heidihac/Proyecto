@@ -1,0 +1,19 @@
+﻿/*.card {
+    margin-top: 70px;
+    max-width: 40%;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    padding: 10px;
+}*/
+@media(min-width: 800px){
+    .container{
+        max-width: 60%;
+    }
+}
+@media screen and (max-width: 767px){
+    /*.carrousel-caption {
+        display: none;
+    }*/
+}
+
+
