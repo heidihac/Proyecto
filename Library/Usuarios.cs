@@ -26,14 +26,19 @@ namespace Proyecto.Library
             _userRole = new UserRoles();
         }
         #endregion
-        // internal async Task<List<object[]>> userLogin(string email, string password)
+        //internal async Task<List<object[]>> userLogin(string email, string password)
         //{
         //    try
         //    {
         //        var result = await _signInManager.PasswordSignInAsync(email, password, false, lockoutOnFailure: false);
         //        if (result.Succeeded)
         //        {
-
+        //            var appUser = _userManager.Users.Where(u => u.Email.Equals(email)).ToList();
+        //        }
+        //        else
+        //        {
+        //            code = "1";
+        //            description = "Correo o contraseña inválidos";
         //        }
         //    }
         //    catch (Exception)

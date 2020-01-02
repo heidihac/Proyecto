@@ -11,6 +11,7 @@ namespace Proyecto.Library
 {
     public class ListObjects
     {
+        public String description, code; 
         public UserRoles _userRole;
         public UserData _userData;
         public IdentityError _identityError;
